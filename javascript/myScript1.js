@@ -1,8 +1,7 @@
-function validateForm() {
-    var x = document.forms["myForm"]["name"].value;
+function form() {
     var y = document.forms["myForm"]["tell"].value;
-    if (x|y == "") {
-      alert("Name must be filled out");
+    if (y == "") {
+      alert("Must be filled out");
       return false;
     }
 

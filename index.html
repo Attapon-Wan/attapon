@@ -12,7 +12,7 @@
 <div class="col-2 leftF">
 <img class="imgBox" src="images/attaponPT.jpg" alt="my photo">
 
-<p class="layBox pxx">Attapon Wannasri
+<p class="layBox textName">Attapon Wannasri
 </p>
 </div>
 
@@ -20,8 +20,8 @@
 <div class="layBox rightF col-4 phoneFont">
     <p>Information</p>
     <ul>
-        <li>Native: Thai</li>
         <li>Age: 21 </li>
+        <li>Native: Thai</li>
         <li>Language: Thai</li>
     </ul>
 </div>    
@@ -43,9 +43,9 @@
 </div>
 
 <!--Skill Table-->
-<div class="layBox col-4 rightF phoneFont ">
+<div class="layBox col-4 rightF phoneFont boxMargin">
     <table>
-        <tr >
+        <tr>
           <th>Skill</th>
           <th>Level</th>
         </tr>
@@ -56,7 +56,6 @@
         <tr>
           <td>python</td>
           <td>456</td>
-    
         </tr>
         <tr>
           <td>html</td>
@@ -66,13 +65,10 @@
 </div>
 
 
-
+<!--Form-->
 <div class="col-3 phoneFont layBox leftF clearLeft">
     <p>Contact Me</p>
-    <form  name="myForm" action="/action_page.php" target="_blank" method="post" onsubmit="return validateForm()">
-        <label for="name">Name or Business: </label><br>
-        <input type="text" id="name" name="name" value=""><br>
-
+    <form  name="myForm" action="/action_page.php" target="_blank" method="post" onsubmit="return form()">
         <label for="tell">E-mail or Phone: </label><br>
         <input type="text" id="tell" name="tell" value=""><br><br>
 
@@ -80,10 +76,11 @@
     </form>
 </div>
 
+<!--Link-->
 <div class="col-3 layBox leftF clearLeft">
     <a class="textStyles" href="https://www.facebook.com/owza191/"> facebook </a>
 </div>
 
-
+<script type="text/javascript" src="javascript/myScript1.js"></script>
 </body>
 </html>
